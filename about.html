@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Tiffany</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-link">HOME</a>
+    <div class="nav-dot"></div>
+    <a href="work.html" class="nav-link">WORK</a>
+    <a href="about.html" class="nav-link nav-active">ABOUT</a>
+    <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank" class="nav-link nav-right">LINKEDIN</a>
+  </nav>
+
+  <!-- ABOUT HERO (wireframe: left = time + fact + links; right = photo + overlapping blurb + tag) -->
+  <section class="about-hero">
+    <div class="about-left">
+      <div class="about-time-label">It's now</div>
+      <div class="about-time" id="ny-time">00:00:00</div>
+      <div class="about-time-location">in NYC.</div>
+      <div class="about-fact-prefix">Tiffany is probably...</div>
+      <div class="about-fact-row">
+        <div class="about-fact-display" id="fact-display">Loading...</div>
+        <button class="fact-redo" id="fact-btn" type="button" aria-label="Regenerate fact">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+            <path d="M3 3v5h5"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="about-links">
+        <a href="https://www.github.com/tiffpvrl" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank">LinkedIn</a>
+        <a href="mailto:tp2906@columbia.edu">Email</a>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <div class="about-photo-wrap">
+        <div class="about-photo"><img src="assets/grad-photo.png" alt="Tiffany Peverilla, UCLA Data Science Class of 2023"></div>
+        <div class="about-photo-tag">MS IN DATA SCIENCE @ COLUMBIA</div>
+      </div>
+      <div class="about-blurb-box">
+        <div class="about-blurb">
+          <p>Hi! I'm Tiffany — a data scientist, researcher, and builder who loves finding the story hiding in messy data. I'm currently pursuing my Master's at Columbia, where I split my time between machine learning coursework and figuring out how AI can actually make people's lives better.</p>
+          <p>I've worked across industries — from insurance actuarial tech in Jakarta to AI at an LA ad-tech company to public health research that made it to The New Yorker. I love working at the intersection of technical rigor and real human impact.</p>
+          <p>When I'm not wrangling data, I'm probably playing guitar, painting watercolors, making Letterboxd reviews no one asked for, or perfecting an iced matcha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES / WHEN NOT DOING DATA SCIENCE -->
+  <section class="hobbies-section">
+    <div class="section-header" style="max-width:1200px; margin: 0 auto 3rem; padding: 0 0 1rem;">
+      <span class="section-num light">01.</span>
+      <h2 class="section-title" style="color: var(--off-white);">What I do for fun</h2>
+      <p style="font-family: var(--font-mono); font-size:0.6rem; color: rgba(255,255,255,0.4); margin-top: 0.5rem; letter-spacing: 0.12em;">← DRAG TO EXPLORE →</p>
+    </div>
+
+    <div class="hobbies-track" style="max-width: 1400px; margin: 0 auto;">
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/guitar.png" alt="Guitar"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/watercolor.png" alt="Painting"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/food.png" alt="Foodie"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/camera.png" alt="Film"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/reading.png" alt="Reading"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/concert.png" alt="Music"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/art.png" alt="Art"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/coffee.JPG" alt="Coffee"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/journaling.png" alt="Journaling"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/matcha.JPG" alt="Matcha"></div>
+        </div>
+      </div>
+
+      <div class="hobby-card">
+        <div class="hobby-card-inner">
+          <div class="hobby-card-img"><img src="assets/hobbies/nature.png" alt="Nature"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- READING & WATCHING -->
+  <section class="culture-section">
+    <div class="section-header" style="border-color: rgba(0,0,0,0.1); padding-bottom: 1rem; margin-bottom: 3rem;">
+      <span class="section-num">02.</span>
+      <h2 class="section-title">Current obsessions</h2>
+    </div>
+
+    <div class="culture-grid">
+      <div class="culture-col">
+        <h3>Books</h3>
+
+        <div class="book-item">
+          <div class="book-item-text">
+            <div class="book-title">Exhalation</div>
+            <div class="book-author">Ted Chiang</div>
+            <div class="book-note">My friend Hillary recommended Ted Chiang's books and my life changed! I loved his other collection, "Stories of Your Life", and was especially obsessed with "Division by Zero" for its clever use of math and logic to demonstrate how illogical human nature can be. I'm now on to "Exhalation" and it's just as good, if not better! "The Lifecycle of Software Objects" especially is so fascinating in its subtle nudges to how we train and use AI models now. Prompt engineering is literally what the characters in the story did when they "trained" their online pets.</div>
+          </div>
+          <div class="book-item-cover">
+            <div class="obsession-cover"><img src="https://m.media-amazon.com/images/I/71eT4lRAyBL._AC_UF1000,1000_QL80_.jpg" alt="Exhalation by Ted Chiang"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="culture-col">
+        <h3>Films</h3>
+
+        <div class="book-item">
+          <div class="book-item-text">
+            <div class="book-title">Sound of Falling</div>
+            <div class="book-author">dir. Mascha Schilinski</div>
+            <div class="book-note">I watched this at NYFF63 and have not stopped thinking about it since. It had everything I love in a film: the anthropomorphism of land or houses, an exploration of generational trauma, and commentary on womanhood. Read my review on Letterboxd <a href="https://letterboxd.com/wondrouslights/film/sound-of-falling/" target="_blank" class="review-link">here</a>.</div>
+          </div>
+          <div class="book-item-cover">
+            <div class="obsession-cover"><img src="https://img.festival-cannes.com/eyJidWNrZXQiOiJtZWRpYSIsImtleSI6InVwbG9hZHNcLzIwMjVcLzA1XC8xOTEyNTEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMzYwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="Sound of Falling, dir. Mascha Schilinski"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p class="footer-cta">Don't be shy, say hello.</p>
+      <a href="mailto:tp2906@columbia.edu" class="footer-email" id="emailLink">tp2906@columbia.edu</a>
+    </div>
+    <div class="footer-mid">
+      <nav class="footer-nav">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank">LINKEDIN</a>
+        <a href="https://www.github.com/tiffpvrl" target="_blank">GITHUB</a>
+      </nav>
+    </div>
+    <div class="footer-name-bar">
+      <div class="footer-bottom-row">
+        <a href="#" class="back-to-top">BACK TO TOP ↑</a>
+        <span class="footer-copy">© <span id="year"></span> TIFFANY</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiffany — Data Science & AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-link nav-active">HOME</a>
+    <div class="nav-dot"></div>
+    <a href="work.html" class="nav-link">WORK</a>
+    <a href="about.html" class="nav-link">ABOUT</a>
+    <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank" class="nav-link nav-right">LINKEDIN</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Hey! It's Tiffany.</p>
+      <h1 class="hero-headline">Welcome! If you want to see all the hats I've put on and fun stuff I've built, go to the <a href="work.html" class="hero-link">work page.</a> If you want to know more about me and get a movie recommendation, go to the <a href="about.html" class="hero-link">about page.</a> Enjoy!</h1>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">
+        <img src="assets/grad-photo.png" alt="Tiffany Peverilla">
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- WHERE I'VE WORKED -->
+  <section class="section" id="work-section">
+    <div class="section-header">
+      <span class="section-num">01.</span>
+      <h2 class="section-title">Where I've Worked</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-tabs">
+        <button class="tab-btn active" data-tab="padma">Padma</button>
+        <button class="tab-btn" data-tab="mayo">Mayo Clinic</button>
+        <button class="tab-btn" data-tab="jazzhands">JHFA</button>
+        <button class="tab-btn" data-tab="ucla">UCLA CE Lab</button>
+        <button class="tab-btn" data-tab="gumgum">GumGum</button>
+        <button class="tab-btn" data-tab="cimb">CIMB Niaga</button>
+        <button class="tab-btn" data-tab="actuarial">Actuarial Partners</button>
+      </div>
+
+      <div class="timeline-content">
+        <div class="tab-panel active" id="padma">
+          <div class="job-entry">
+            <h3 class="job-title">AI Research Consultant <span class="job-at">@ Padma Radya Aktuaria</span></h3>
+            <p class="job-meta">Feb 2026 – Present &nbsp;·&nbsp; Jakarta, ID</p>
+            <ul class="job-bullets">
+              <li>Conducting research on machine learning methods for Incurred But Not Reported (IBNR) insurance claims reserving</li>
+            </ul>
+          </div>
+          <div class="job-entry">
+            <h3 class="job-title">Data Science Intern <span class="job-at">@ Padma Radya Aktuaria</span></h3>
+            <p class="job-meta">Jul 2024 – Sep 2024 &nbsp;·&nbsp; Jakarta, ID</p>
+            <ul class="job-bullets">
+              <li>Engineered backend and frontend of web app automating pipeline in Python/Flask & JavaScript for processing 500K+ insurance records with sub-1-minute runtime</li>
+              <li>Reduced processing time by 85% and operational costs by 5% while enabling real-time IFRS17 Excel financial reporting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-panel" id="mayo">
+          <h3 class="job-title">Data Science Consultant <span class="job-at">@ Mayo Clinic</span></h3>
+          <p class="job-meta">Jan 2026 – Present &nbsp;·&nbsp; New York, NY &nbsp;·&nbsp; Columbia Capstone</p>
+          <ul class="job-bullets">
+            <li>Developing end-to-end RAG-based chatbot system using AI workflow automation to orchestrate EHR data integration via GCP, patient adherence engine, risk stratification modules, and human-in-the-loop clinical review</li>
+            <li>Benchmarking LLMs (MedPaLM, Claude Sonnet, Gemini) for medical dialogue generation and implementing RLHF evaluation framework incorporating patient and clinician feedback to iteratively improve clinical accuracy and conversational quality</li>
+            <li>Engineering vector database and retrieval pipeline for RAG system by creating synthetic EHR datasets, implementing semantic search with embeddings, and optimizing LLM responses through prompt engineering techniques</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="jazzhands">
+          <h3 class="job-title">Data Analyst Intern <span class="job-at">@ Jazz Hands for Autism</span></h3>
+          <p class="job-meta">Jan 2025 – Jun 2025 &nbsp;·&nbsp; Los Angeles, CA</p>
+          <ul class="job-bullets">
+            <li>Migrated and optimized JazzBoard, integrating 5+ data sources and implementing automated data cleaning for 150+ records, reducing manual processing by 40%</li>
+            <li>Developed and deployed the Employer Feedback App in Google AppSheets with dynamic dashboards for 30+ students' outcomes, enhancing data accessibility for 20+ staff</li>
+            <li>Pioneered relational view implementation on AppSheets, trained 2 teammates, and presented the approach to leadership</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="ucla">
+          <h3 class="job-title">Research Assistant <span class="job-at">@ UCLA Carceral Ecologies Lab</span></h3>
+          <p class="job-meta">Sep 2024 – Aug 2025 &nbsp;·&nbsp; Los Angeles, CA</p>
+          <ul class="job-bullets">
+            <li>Analyzed 170K+ LAPD flight records across 39 features to assess health impacts in LA neighborhoods, using PDF scraping in R and efficient Python algorithms</li>
+            <li>Generated insights via 30+ Tableau visualizations, contributing to discussions cited in LA City Hall budgeting meetings and gaining attention from the LA Times and The New Yorker</li>
+            <li>Presented to 10+ stakeholders including Johnson & Johnson Foundation representatives</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="gumgum">
+          <h3 class="job-title">AI/ML Intern <span class="job-at">@ GumGum</span></h3>
+          <p class="job-meta">Aug 2023 – Dec 2023 &nbsp;·&nbsp; Los Angeles, CA</p>
+          <ul class="job-bullets">
+            <li>Led a team of 5 to develop deep learning pipeline classifying videos using non-speech audio embeddings mapped to IAB categories via fine-tuned CNN architectures (PyTorch) and AWS</li>
+            <li>Achieved 80% accuracy using binary cross-entropy loss, k-fold cross-validation, and confusion matrices across 10K+ records</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="cimb">
+          <h3 class="job-title">Marketing & Communications Intern <span class="job-at">@ CIMB Niaga Bank</span></h3>
+          <p class="job-meta">Jun 2022 – Sep 2022 &nbsp;·&nbsp; Jakarta, ID</p>
+          <ul class="job-bullets">
+            <li>Led development of a high-net-worth marketing campaign, increasing customer engagement by 15% and expanding targeted marketing reach by 25%</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="actuarial">
+          <h3 class="job-title">Data Analysis Research Intern <span class="job-at">@ Actuarial Partners</span></h3>
+          <p class="job-meta">Jun 2020 – Aug 2020 &nbsp;·&nbsp; Kuala Lumpur, MY</p>
+          <ul class="job-bullets">
+            <li>Analyzed 5K+ rows of data across 50+ Indonesian and Malaysian insurance companies, creating 10+ visualizations and a 30-page Sharia insurance market report</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a href="work.html" class="cta-btn">+ See Full Work</a>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-dark" id="projects-section">
+    <div class="section-header">
+      <span class="section-num light">02.</span>
+      <h2 class="section-title light">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img-placeholder"><img src="assets/projects/serene-stream/Screenshot 2026-02-17 at 21.42.02.png" alt="SereneStream" /></div>
+        <div class="project-info">
+          <span class="project-tag">GenAI · Swift · UI/UX</span>
+          <h3>SereneStream</h3>
+          <p>🏆 1st Place, QWER Hacks 2025 — iOS app that generates personalized lo-fi music tracks via Suno AI API integration</p>
+          <a href="https://github.com/ayangelah/serene-stream" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img-placeholder"><img src="https://nilearn.github.io/dev/_images/sphx_glr_plot_demo_glass_brain_extensive_001.png" alt="Brain State Classification" /></div>
+        <div class="project-info">
+          <span class="project-tag">Python · fMRI · SVM</span>
+          <h3>Brain State Classification</h3>
+          <p>fMRI BOLD signal pipeline with ROI segmentation, PCA dimensionality reduction, and 89.7% cross-validation accuracy</p>
+          <a href="https://github.com/tiffpvrl/brain-state-classification" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img-placeholder"><img src="assets/projects/svhn/Screenshot 2026-02-17 at 23.57.39.png" alt="SVHN Digit Classifier" /></div>
+        <div class="project-info">
+          <span class="project-tag">TensorFlow · CNN</span>
+          <h3>SVHN Digit Classifier</h3>
+          <p>CNN classifying 73K+ street view digit images with 94% test accuracy using 3-block conv architecture</p>
+          <a href="https://github.com/tiffpvrl/SVHN_CNN_Classification" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img-placeholder"><img src="assets/projects/letterboxd/Screenshot 2026-02-17 at 23.29.55.png" alt="Letterboxd Recommender" /></div>
+        <div class="project-info">
+          <span class="project-tag">Python · Collaborative Filtering</span>
+          <h3>Letterboxd Recommender</h3>
+          <p>Multi-method recommendation engine using item/user-based CF and matrix factorization on MovieLens 100K dataset</p>
+          <a href="https://github.com/tiffpvrl/letterboxd-movie-recommendation" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img-placeholder"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2025/05/Header-Image10-scaled.jpg" alt="Spotify Music Classifier" /></div>
+        <div class="project-info">
+          <span class="project-tag">PyTorch · Neural Network</span>
+          <h3>Spotify Music Classifier</h3>
+          <p>Feed-forward NN classifying 114 music genres with 88% accuracy and 0.88 weighted F1-score</p>
+          <a href="https://github.com/tiffpvrl/spotify-track-analysis" target="_blank" class="project-link">View Project →</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="work.html#projects" class="cta-btn cta-btn-light">+ See All Projects</a>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p class="footer-cta">Don't be shy, say hello.</p>
+      <a href="mailto:tp2906@columbia.edu" class="footer-email" id="emailLink">tp2906@columbia.edu</a>
+    </div>
+    <div class="footer-mid">
+      <nav class="footer-nav">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank">LINKEDIN</a>
+        <a href="https://www.github.com/tiffpvrl" target="_blank">GITHUB</a>
+      </nav>
+    </div>
+    <div class="footer-name-bar">
+      <div class="footer-bottom-row">
+        <a href="#top" class="back-to-top">BACK TO TOP ↑</a>
+        <span class="footer-copy">© <span id="year"></span> TIFFANY</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

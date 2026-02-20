@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work — Tiffany</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-link">HOME</a>
+    <div class="nav-dot"></div>
+    <a href="work.html" class="nav-link nav-active">WORK</a>
+    <a href="about.html" class="nav-link">ABOUT</a>
+    <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank" class="nav-link nav-right">LINKEDIN</a>
+  </nav>
+
+  <!-- PAGE HERO + WORK CONTENT -->
+  <div class="work-page-layout">
+    <div class="page-hero">
+      <h1 class="page-title">All my</h1>
+      <h1 class="page-title">work!</h1>
+    </div>
+    <div class="work-section">
+    <div class="work-tabs">
+      <button class="work-tab-btn active" data-panel="internships">Internships & Research</button>
+      <button class="work-tab-btn" data-panel="projects">Projects</button>
+      <button class="work-tab-btn" data-panel="leadership">Leadership</button>
+    </div>
+
+    <!-- INTERNSHIPS -->
+    <div class="work-panel active" id="internships">
+      <p class="work-period-label">Currently working on...</p>
+      <div class="intern-grid">
+        <div class="intern-card" data-modal="padma2">
+          <div class="intern-logo intern-logo-img"><img src="https://yt3.googleusercontent.com/ytc/AIdro_nERRL8zmps5bVEV_SGgicAqZMFkdTJCECvoxE8YNZfop0=s900-c-k-c0x00ffffff-no-rj" alt="Padma Radya Aktuaria" /></div>
+          <div class="intern-company">Padma Radya Aktuaria · Jakarta, ID</div>
+          <div class="intern-role">AI Research Consultant</div>
+          <div class="intern-dates">Feb 2026 – Present</div>
+          <p class="intern-desc">Conducting research on machine learning methods for IBNR insurance claims reserving.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+        <div class="intern-card" data-modal="mayo">
+          <div class="intern-logo intern-logo-img"><img src="https://www.cancernutrition.org/wp-content/uploads/mayo-clinic-logo-450x450-1.jpg" alt="Mayo Clinic" /></div>
+          <div class="intern-company">Mayo Clinic · New York, NY</div>
+          <div class="intern-role">Data Science Consultant</div>
+          <div class="intern-dates">Jan 2026 – Present · Columbia Capstone</div>
+          <p class="intern-desc">Designing LLM/RAG-powered Q&A interface to improve patient understanding of bowel preparation for colonoscopies.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+      </div>
+
+      <p class="work-period-label">Previously worked on...</p>
+      <div class="intern-grid">
+        <div class="intern-card" data-modal="jazzhands">
+          <div class="intern-logo intern-logo-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRysTMQcC9pdS1EKsmSkX2jk6C1JYhX_QIxQ&s" alt="Jazz Hands for Autism" /></div>
+          <div class="intern-company">Jazz Hands for Autism · Los Angeles, CA</div>
+          <div class="intern-role">Data Analyst Intern</div>
+          <div class="intern-dates">Jan 2025 – Jun 2025</div>
+          <p class="intern-desc">Migrated JazzBoard integrating 5+ data sources; deployed Employer Feedback App in Google AppSheets for 30+ students' outcomes.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+
+        <div class="intern-card" data-modal="ucla">
+          <div class="intern-logo intern-logo-img"><img src="assets/carceral-ecologies-logo.png" alt="Carceral Ecologies" /></div>
+          <div class="intern-company">UCLA Carceral Ecologies Lab · Los Angeles, CA</div>
+          <div class="intern-role">Research Assistant</div>
+          <div class="intern-dates">Sep 2024 – Aug 2025</div>
+          <p class="intern-desc">Analyzed 170K+ LAPD flight records on health impacts; work cited in LA City Hall and featured in the LA Times and The New Yorker.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+
+        <div class="intern-card" data-modal="padma1">
+          <div class="intern-logo intern-logo-img"><img src="https://yt3.googleusercontent.com/ytc/AIdro_nERRL8zmps5bVEV_SGgicAqZMFkdTJCECvoxE8YNZfop0=s900-c-k-c0x00ffffff-no-rj" alt="Padma Radya Aktuaria" /></div>
+          <div class="intern-company">Padma Radya Aktuaria · Jakarta, ID</div>
+          <div class="intern-role">Data Science Intern</div>
+          <div class="intern-dates">Jul 2024 – Sep 2024</div>
+          <p class="intern-desc">Engineered Python/Flask web app processing 500K+ insurance records, reducing processing time by 85% and enabling real-time IFRS17 reporting.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+
+        <div class="intern-card" data-modal="gumgum">
+          <div class="intern-logo intern-logo-img"><img src="https://media.licdn.com/dms/image/v2/D560BAQEd-EW47FF2vQ/company-logo_200_200/B56ZuZ04d4JsAM-/0/1767812336183?e=2147483647&v=beta&t=QWLkw1p7KRLlYjFymAa0ASjUWXSgXsw5x004ZidS808" alt="GumGum" /></div>
+          <div class="intern-company">GumGum · Los Angeles, CA</div>
+          <div class="intern-role">AI/ML Intern</div>
+          <div class="intern-dates">Aug 2023 – Dec 2023</div>
+          <p class="intern-desc">Led team of 5 to develop deep learning pipeline classifying videos via non-speech audio embeddings; achieved 80% accuracy across 10K+ records.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+
+        <div class="intern-card" data-modal="cimb">
+          <div class="intern-logo intern-logo-img"><img src="https://media.licdn.com/dms/image/v2/C560BAQE0UE-6hjzwPA/company-logo_200_200/company-logo_200_200/0/1631355002048?e=2147483647&v=beta&t=u5ba8KYyPpsXU79lgKfLNCmPGxHeUYL5s4MHR3Ivs4A" alt="CIMB Niaga" /></div>
+          <div class="intern-company">CIMB Niaga Bank · Jakarta, ID</div>
+          <div class="intern-role">Marketing & Communications Intern</div>
+          <div class="intern-dates">Jun 2022 – Sep 2022</div>
+          <p class="intern-desc">Led high-net-worth marketing campaign, increasing customer engagement by 15% and expanding targeted marketing reach by 25%.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+
+        <div class="intern-card" data-modal="actuarial">
+          <div class="intern-logo intern-logo-img"><img src="https://pbs.twimg.com/profile_images/618303780375801856/RJlrTjqL_400x400.png" alt="Actuarial Partners" /></div>
+          <div class="intern-company">Actuarial Partners · Kuala Lumpur, MY</div>
+          <div class="intern-role">Data Analysis Research Intern</div>
+          <div class="intern-dates">Jun 2020 – Aug 2020</div>
+          <p class="intern-desc">Analyzed 5K+ rows across 50+ companies; produced 30-page Sharia insurance market report recognized for analytical depth.</p>
+          <div class="intern-expand">Read more →</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="work-panel" id="projects">
+      <div class="projects-grid">
+        <div class="project-card" data-modal="serenestream">
+          <div class="project-img-placeholder"><img src="assets/projects/serene-stream/Screenshot 2026-02-17 at 21.42.02.png" alt="SereneStream" /></div>
+          <div class="project-info">
+            <span class="project-tag">GenAI · Swift · UI/UX</span>
+            <h3>SereneStream</h3>
+            <p>🏆 1st Place, QWER Hacks 2025 — iOS app that generates personalized lo-fi music tracks via Suno AI API integration.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/ayangelah/serene-stream" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="brain">
+          <div class="project-img-placeholder"><img src="https://nilearn.github.io/dev/_images/sphx_glr_plot_demo_glass_brain_extensive_001.png" alt="Brain State Classification" /></div>
+          <div class="project-info">
+            <span class="project-tag">Python · fMRI · SVM</span>
+            <h3>Brain State Classification</h3>
+            <p>fMRI BOLD signal pipeline with ROI segmentation, PCA dimensionality reduction, and 89.7% cross-validation accuracy.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/tiffpvrl/brain-state-classification" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="svhn">
+          <div class="project-img-placeholder"><img src="assets/projects/svhn/Screenshot 2026-02-17 at 23.57.39.png" alt="SVHN Digit Classifier" /></div>
+          <div class="project-info">
+            <span class="project-tag">TensorFlow · CNN</span>
+            <h3>SVHN Digit Classifier</h3>
+            <p>CNN classifying 73K+ street view digit images with 94% test accuracy using 3-block conv architecture.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/tiffpvrl/SVHN_CNN_Classification" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="letterboxd">
+          <div class="project-img-placeholder"><img src="assets/projects/letterboxd/Screenshot 2026-02-17 at 23.29.55.png" alt="Letterboxd Recommender" /></div>
+          <div class="project-info">
+            <span class="project-tag">Python · Collaborative Filtering</span>
+            <h3>Letterboxd Recommender</h3>
+            <p>Multi-method recommendation engine using item/user-based CF and matrix factorization on MovieLens 100K dataset.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/tiffpvrl/letterboxd-movie-recommendation" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="spotify">
+          <div class="project-img-placeholder"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2025/05/Header-Image10-scaled.jpg" alt="Spotify Music Classifier" /></div>
+          <div class="project-info">
+            <span class="project-tag">PyTorch · Neural Network</span>
+            <h3>Spotify Music Classifier</h3>
+            <p>Feed-forward NN classifying 114 music genres with 88% accuracy and 0.88 weighted F1-score.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/tiffpvrl/spotify-track-analysis" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="billboard">
+          <div class="project-img-placeholder"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Billboard_Hot_100_logo_%282025_March_design%29.png" alt="Billboard Hot 100 Analysis" /></div>
+          <div class="project-info">
+            <span class="project-tag">API Mining · Data Viz · Git</span>
+            <h3>Billboard Hot 100 Analysis</h3>
+            <p>Analyzed evolution of 2000 Billboard Hot 100 #1 songs from 1950–2025 using PCA biplots, stacked bar charts, and mosaic plots.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://tiffpvrl.github.io/billboard-hot-100/" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+        <div class="project-card" data-modal="airquality">
+          <div class="project-img-placeholder"><img src="assets/projects/timeseries/Screenshot 2026-02-18 at 00.07.28.png" alt="Air Quality Time Series Analysis" /></div>
+          <div class="project-info">
+            <span class="project-tag">Python · OLS Regression · StatsModels</span>
+            <h3>Air Quality Time Series Analysis</h3>
+            <p>Analyzed AQI & precipitation in Jakarta via Climate Data Store API, applying OLS regression and first differencing for trend analysis.</p>
+            <div class="project-expand">Read more →</div>
+            <a href="https://github.com/tiffpvrl/columbia-time-series/blob/main/tp2906_Monthly_Lab3.ipynb" target="_blank" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEADERSHIP -->
+    <div class="work-panel" id="leadership">
+      <div class="leadership-grid">
+
+        <div class="leadership-card">
+          <div class="leadership-logo leadership-logo-img"><img src="assets/gradswe logo.png" alt="Graduate Society of Women Engineers" /></div>
+          <div class="leadership-title">President</div>
+          <div class="leadership-org">Graduate Society of Women Engineers · Columbia University</div>
+          <div class="intern-dates" style="text-align:center; margin-top: 0.5rem;">New York, NY</div>
+          <p class="intern-desc" style="margin-top: 1rem; font-size: 0.8rem;">Direct board operations and programming for 100+ graduate women engineers</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-logo leadership-logo-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQopVihRb-RdZrIFRH8AbjOepbMTsCzfpzAvQ&s" alt="Break Through Tech" /></div>
+          <div class="leadership-title">Break Through Tech AI Fellow</div>
+          <div class="leadership-org">Break Through Tech · Cornell Tech</div>
+          <div class="intern-dates" style="text-align:center; margin-top: 0.5rem;">Los Angeles, CA</div>
+          <p class="intern-desc" style="margin-top: 1rem; font-size: 0.8rem;">Selected as a Break Through Tech AI Fellow, gaining hands-on experience in applied machine learning and AI</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-logo leadership-logo-img"><img src="assets/ucla-swe-logo.png" alt="Society of Women Engineers UCLA" /></div>
+          <div class="leadership-title">Technical Committee</div>
+          <div class="leadership-org">Society of Women Engineers · UCLA</div>
+          <div class="intern-dates" style="text-align:center; margin-top: 0.5rem;">Los Angeles, CA</div>
+          <p class="intern-desc" style="margin-top: 1rem; font-size: 0.8rem;">Served on SWE's Technical Committee, organizing QWER Hacks, LA's largest LGBTQ+ hackathon to support LGBTQ+ folks in engineering</p>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="modal-close" id="modal-close">✕ Close</button>
+      <h2></h2>
+      <div class="modal-meta"></div>
+
+      <div class="modal-intern-sections">
+        <div class="modal-section">
+          <h4>The Issue</h4>
+          <p id="modal-issue"></p>
+        </div>
+        <div class="modal-section">
+          <h4>My Task</h4>
+          <p id="modal-task"></p>
+        </div>
+      </div>
+
+      <div class="modal-project-sections" style="display: none;">
+        <div class="modal-section">
+          <h4>My Contributions</h4>
+          <p id="modal-contributions"></p>
+          <div class="modal-slideshow" id="modal-slideshow">
+            <div class="slideshow-container">
+              <img class="slideshow-image" id="slideshow-image" src="" alt="" />
+              <button type="button" class="slideshow-prev" id="slideshow-prev" aria-label="Previous">‹</button>
+              <button type="button" class="slideshow-next" id="slideshow-next" aria-label="Next">›</button>
+            </div>
+            <div class="slideshow-dots" id="slideshow-dots"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section" id="modal-section-stack">
+        <h4>Tech Stack</h4>
+        <div id="modal-stack"></div>
+      </div>
+      <div class="modal-section" id="modal-section-learned">
+        <h4>What I Learned</h4>
+        <p id="modal-learned"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p class="footer-cta">Don't be shy, say hello.</p>
+      <a href="mailto:tp2906@columbia.edu" class="footer-email" id="emailLink">tp2906@columbia.edu</a>
+    </div>
+    <div class="footer-mid">
+      <nav class="footer-nav">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.linkedin.com/in/tiffanypeverilla" target="_blank">LINKEDIN</a>
+        <a href="https://www.github.com/tiffpvrl" target="_blank">GITHUB</a>
+      </nav>
+    </div>
+    <div class="footer-name-bar">
+      <div class="footer-bottom-row">
+        <a href="#" class="back-to-top">BACK TO TOP ↑</a>
+        <span class="footer-copy">© <span id="year"></span> TIFFANY</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
